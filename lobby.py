@@ -40,3 +40,8 @@ email_ID=@username and Password=@password";
  Session["l_id"] = dt.Rows[0]["Area_id"].ToString(); 
  Response.Redirect("AddBalance.aspx"); 
  }
+else
+ { 
+ Label1.Visible = true; 
+ Label1.Text = "Invalid Details"; 
+ }}}
